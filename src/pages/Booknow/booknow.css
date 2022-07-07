@@ -1,0 +1,49 @@
+.booknow_listroom{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+/* spinner */
+.loader{
+    padding: 10% 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.date-picker{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 300px;
+}
+.date-picker .react-daterange-picker__wrapper{
+    border: none;
+    text-align: center;
+}
+.booknow_checkout--mobile{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(54, 19, 84, 0.8);
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px;
+    display: none;
+}
+
+/* query on mobile device */
+@media (max-width: 768px) {
+    .date-picker_form-control{
+        display: flex;
+        flex-direction: column;
+    }
+    .booknow_checkout{
+        display: none;
+    }
+    .booknow_checkout--mobile{
+        display: flex;
+    }
+}

@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+@font-face {
+    font-family: 'Beyond';
+    src: url(./assets/font/beyond_the_mountains.otf) format('truetype'), url(./assets/font/beyond_the_mountains.ttf) format('opentype')
+}
+
+:root {
+    --primary-color: #fa9e1b;
+    --white-color: #fff;
+    --violet: #8d4fff;
+    --yellow: #fa9e1b;
+    --black: #2d2c2c;
+    --btn-black: #31124b;
+    --bg-header: rgba(54, 19, 84, .6);
+    --bg-header-scroll: rgba(54, 19, 84, .85);
+    --bg-btn: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+    --bg-section: linear-gradient(to right, #fa9e1b, #8d4fff);
+    --offer-color: #eda84a;
+    --border: linear-gradient(to right, #fa9e1b, #8d4fff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #a5a5a5;
+}
+ul {
+    list-style: none;
+}
+
+.hide {
+    display: none !important;
+}
+/* btn */
+.btn-wrap {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.btn {
+    border: none;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-wrap:hover .btn-bg {
+    transform: translateX(-130px);
+}
+
+.btn-bg {
+    background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0);
+    transition: transform linear .3s;
+}
+
+@keyframes searchInputFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

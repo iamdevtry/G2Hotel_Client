@@ -1,0 +1,35 @@
+.detail_room{
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 143px;
+    padding: 2rem 0;
+}
+.detail_room_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.detail_room_content{
+    padding:0 2rem;
+}
+.detail_room_service{
+    padding:0 2rem;
+}
+.detail_room_info{
+    padding:0 2rem;
+}
+.detail_room_image{
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.switch-wrap{
+    display: flex;
+}
+
+.switch-wrap *~*{
+    margin-left: 12px;
+}

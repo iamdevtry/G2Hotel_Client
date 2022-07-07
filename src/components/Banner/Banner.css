@@ -1,0 +1,139 @@
+.banner_area{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(64, 6, 97, 0.4), rgba(64, 6, 97, 0.4)), url('https://r4.wallpaperflare.com/wallpaper/977/548/906/beach-water-pier-tropical-wallpaper-5bf62c9d03b1cf89e524db692d0cdc90.jpg') top center / cover no-repeat;
+}
+.header-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-slider__content {
+    text-align: center;
+    cursor: default;
+    margin-bottom: 45px;
+}
+
+h1.header-slider__heading {
+    font-size: 92px;
+    color: var(--white-color);
+    font-weight: 900;
+}
+/* query on mobile device */
+@media (max-width: 768px) {
+    h1.header-slider__heading {
+        font-size: 70px;
+    }
+}
+
+span.header-slider__heading {
+    font-size: 80px;
+    color: var(--white-color);
+    font-family: Beyond;
+}
+
+.header-slider__btn {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    height: 53px;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.header-slider__btn-bgc {
+    background: var(--bg-btn);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    z-index: 0;
+    transition: all ease .5s;
+}
+
+.header-slider__btn-content {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--white-color);
+    padding: 0 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    line-height: 53px;
+    height: 53px; 
+    display: block;
+    position: relative;
+}
+
+.header-slider__btn:hover .header-slider__btn-bgc {
+    left: -100px;
+}
+
+.header-mb-bar__input:checked ~ .header-mb-bar__overlay {
+    display: block;
+}
+
+.header-mb-bar__input:checked ~ .header-mb-bar__content {
+    display: block;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.header-mb-bar__content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background: linear-gradient(-300deg, rgb(250, 158, 27), rgb(141, 79, 255));;
+    z-index: 99;
+    /* display: none; */
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all linear .4s;
+}
+
+.header-mb-bar__list {
+    margin-top: 50px;
+}
+
+.header-mb-bar__link {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 40px;
+    display: block;
+    font-family: Beyond;
+}
+
+.header-mb-bars__close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px;
+}
+
+.header-mb-bar__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear .3s;
+}

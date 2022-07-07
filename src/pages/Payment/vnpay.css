@@ -1,0 +1,23 @@
+.checkout_page{
+    padding-top: 175px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.checkout_form_control{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0px 12px;
+}
+
+.checkout_form_control__sub{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.warning_phone_isvalid{
+    position: absolute;
+    bottom: 135px;
+    z-index: 3;
+    right: 30px;
+}
