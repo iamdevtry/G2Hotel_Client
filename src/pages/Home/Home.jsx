@@ -70,7 +70,7 @@ const Home = () => {
                                 <div
                                     className="about-item"
                                     style={{
-                                        backgroundImage: `url('https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/288858383_3278888965768412_1435913065662087606_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Fp00vr2kro4AX-TiW4g&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT-Bh1_MYNsKhYXeXovgtEs26zvFqUqynmIKbYGNlA00tA&oe=62C67A22')`,
+                                        backgroundImage: `url('https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/278470965_3218766908447285_8619990093593630193_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qFQrLikUPC8AX8-PLGI&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT8pGsakod8d_wYB--NUlWGocewSYC7cIwBmUnV-bPM2TA&oe=62CBDE86')`,
                                     }}
                                 >
                                     <div className="about-item__icon">
