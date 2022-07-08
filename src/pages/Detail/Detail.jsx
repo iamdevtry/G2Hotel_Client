@@ -210,7 +210,7 @@ const Detail = () => {
                         </Row>
                     </div>
                 </Col>
-                <Col xs={24} sm={24} md={12} lg={9} xl={6}>
+                <Col xs={24} sm={24} md={12} lg={12} xl={12}>
                     <div className="detail_room_image">
                         <Carousel autoplay>
                             {item?.photos &&
