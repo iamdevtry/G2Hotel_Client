@@ -67,12 +67,6 @@ const Footer = () => {
                                     </a>
                                 </div>
                                 <div className="footer-info-item">
-                                    <img src={fi2} className="footer-info-item__img"></img>
-                                    <a href="" className="footer-info-item__content">
-                                        +84 847 630 640
-                                    </a>
-                                </div>
-                                <div className="footer-info-item">
                                     <img src={fi3} className="footer-info-item__img"></img>
                                     <a href="" className="footer-info-item__content">
                                         me@devtry.net
@@ -80,8 +74,8 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-info-item">
                                     <img src={fi4} className="footer-info-item__img"></img>
-                                    <a href="" className="footer-info-item__content">
-                                        www.devtry.net
+                                    <a href="http://gogup.tech/" className="footer-info-item__content">
+                                        www.gogup.tech
                                     </a>
                                 </div>
                             </div>
