@@ -70,7 +70,7 @@ const Home = () => {
                                 <div
                                     className="about-item"
                                     style={{
-                                        backgroundImage: `url('https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/278470965_3218766908447285_8619990093593630193_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=qFQrLikUPC8AX8-PLGI&_nc_ht=scontent.fsgn2-5.fna&oh=00_AT8pGsakod8d_wYB--NUlWGocewSYC7cIwBmUnV-bPM2TA&oe=62CBDE86')`,
+                                        backgroundImage: `url('http://gogup.tech/images/sang_dev.jpg')`,
                                     }}
                                 >
                                     <div className="about-item__icon">
@@ -95,7 +95,7 @@ const Home = () => {
                                 <div
                                     className="about-item"
                                     style={{
-                                        backgroundImage: `url('https://scontent.fsgn2-1.fna.fbcdn.net/v/t39.30808-6/247693616_837225596934409_3239755983913749636_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=vbG60cTznRcAX_bF_eB&_nc_ht=scontent.fsgn2-1.fna&oh=00_AT9QH2ffdYG0IKOnPEhXBNmzFMqQoqY9QADu0MjKw8x7Ng&oe=62C75DBF')`,
+                                        backgroundImage: `url('http://gogup.tech/images/avt_anhvu.jpg')`,
                                     }}
                                 >
                                     <div className="about-item__icon">
