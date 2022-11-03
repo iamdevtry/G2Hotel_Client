@@ -70,7 +70,7 @@ const Home = () => {
                                 <div
                                     className="about-item"
                                     style={{
-                                        backgroundImage: `url('http://gogup.tech/images/sang_dev.jpg')`,
+                                        backgroundImage: `url('https://m.media-amazon.com/images/M/MV5BNjJhZDZhNWYtMjdhYS00NjkyLWE5NzItMzljNmQ3NGE4MGZjXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg')`,
                                     }}
                                 >
                                     <div className="about-item__icon">
@@ -78,7 +78,7 @@ const Home = () => {
                                     </div>
                                     <div className="about-item__content">
                                         <div className="about-item__header">
-                                            <h6 className="about-item__name">BoizCoder</h6>
+                                            <h6 className="about-item__name">PunisherCoderz</h6>
                                             <p className="about-item__date">3 Jul, 2022</p>
                                         </div>
                                         <div className="about-item__body">
@@ -95,7 +95,7 @@ const Home = () => {
                                 <div
                                     className="about-item"
                                     style={{
-                                        backgroundImage: `url('http://gogup.tech/images/avt_anhvu.jpg')`,
+                                        backgroundImage: `url('https://static.wikia.nocookie.net/peaky-blinders/images/8/8e/Tommys3.jpg/revision/latest?cb=20190715140230')`,
                                     }}
                                 >
                                     <div className="about-item__icon">
@@ -103,7 +103,7 @@ const Home = () => {
                                     </div>
                                     <div className="about-item__content">
                                         <div className="about-item__header">
-                                            <h6 className="about-item__name">QuangDev69</h6>
+                                            <h6 className="about-item__name">Tômmy SeoBy</h6>
                                             <p className="about-item__date">01 Jun , 2022</p>
                                         </div>
                                         <div className="about-item__body">
