@@ -94,7 +94,7 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <a href="http://gogup.tech/">
-                                        <i class="fa-solid fa-globe"></i>
+                                        <i class="fas fa-globe"></i>
                                     </a>
                                 </li>
                             </ul>
