@@ -77,22 +77,24 @@ const Header = () => {
                     <div className="grid wide header-topbar-container">
                         <div className="header-topbar__contact">
                             <ul style={{ paddingTop: '12px' }}>
-                                <li className="phone">
-                                    <a href="#">+84 847 630 640</a>
-                                </li>
                                 <li>
                                     <a href="https://www.facebook.com/phongtrollisdabest/">
                                         <i className="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/phongtrollx2">
+                                    <a href="https://github.com/iamdevtry">
                                         <i className="fab fa-github"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="www.linkedin.com/in/phongtrollx2">
                                         <i className="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://gogup.tech/">
+                                        <i class="fa-solid fa-globe"></i>
                                     </a>
                                 </li>
                             </ul>
