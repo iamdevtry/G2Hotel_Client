@@ -40,7 +40,7 @@ const Footer = () => {
                                     </a>
                                     <a
                                         className="footer__about-social-link"
-                                        href="https://github.com/phongtrollx2"
+                                        href="https://github.com/iamdevtry"
                                     >
                                         <i className="fab fa-github"></i>
                                     </a>
