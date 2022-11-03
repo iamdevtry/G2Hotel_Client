@@ -95,7 +95,7 @@ const Home = () => {
                                 <div
                                     className="about-item"
                                     style={{
-                                        backgroundImage: `url('https://static.wikia.nocookie.net/peaky-blinders/images/8/8e/Tommys3.jpg/revision/latest?cb=20190715140230')`,
+                                        backgroundImage: `url('https://static.wikia.nocookie.net/peaky-blinders/images/8/8e/Tommys3.jpg')`,
                                     }}
                                 >
                                     <div className="about-item__icon">
