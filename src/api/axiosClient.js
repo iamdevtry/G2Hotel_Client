@@ -4,6 +4,9 @@ import apiConfig from './apiConfig';
 
 const axiosClient = axios.create({
     baseURL: apiConfig.baseUrl,
+    withCredentials: true,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
 });
 
 axiosClient.interceptors.request.use(async (config) => config);
